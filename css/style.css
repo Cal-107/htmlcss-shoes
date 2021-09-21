@@ -1,0 +1,54 @@
+/* reset and utilities */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+/* viewport 1 */
+
+.box-1 {
+    background-color: #ff0000;
+}
+
+.container .box-1 {
+    width: 100%;
+}
+
+.shoe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 23px;
+}
+
+.shoe img {
+    display: block;
+}
+
+.shoe .shoe-info {
+    color: #ffff00;
+}
+
+
+/*  viewport 2 */
+
+.box-2 {
+    background-color: #008000;
+}
+
+/* viewport 3 */
+.box-3 {
+    background-color: #ffff00;
+}
+
+.box-3 .shoe-info {
+    color: #008000;
+}
