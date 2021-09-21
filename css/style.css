@@ -5,13 +5,38 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .container {
     height: 100vh;
     position: relative;
 }
 
-/* viewport 1 */
+/* nav setup */
+nav ul li {
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 12px 18px;
+    background-color: #fff;
+    box-shadow: 5px 10px 18px #000;
+    margin: 50px 20px;
+}
 
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+}
+
+    /* viewport 1 */
 .box-1 {
     background-color: #ff0000;
 }
@@ -36,7 +61,6 @@
 .shoe .shoe-info {
     color: #ffff00;
 }
-
 
 /*  viewport 2 */
 
